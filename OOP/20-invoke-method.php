@@ -13,7 +13,7 @@ class Student
 
     public function __invoke()
     {
-        return $this->name;
+        return $this->name; // You can't call object as function
     }
 }
 
